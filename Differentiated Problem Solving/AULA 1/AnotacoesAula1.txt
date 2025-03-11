@@ -1,0 +1,7 @@
+- Canal da UNIVESP para cursos de matemática
+- Cálculo diferencial e integral é o estudo das funções mas dentro da ótica de seus limites
+- Função de custo é o custo total que uma empresa precisa na produção de x unidades de algo
+- funçao demanda ou função preço é o preço por unidade que a companhia pode cobrar se vender x
+- a função receita é x * função demanda
+- integra é relacionado cm o cálculo de área
+- 
