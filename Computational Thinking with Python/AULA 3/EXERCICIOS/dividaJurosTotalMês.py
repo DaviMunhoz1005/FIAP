@@ -16,7 +16,7 @@ def get_int_input(prompt):
         except ValueError:
             print("Entrada inválida! Por favor, insira um número inteiro válido.")
 
-print("""                                                                                          
+print(r"""                                                                                          
          ,---._                              ,----..               
        .-- -.' \               ,-.----.     /   /   \   .--.--.    
        |    |   :         ,--, \    /  \   /   .     : /  /    '.  

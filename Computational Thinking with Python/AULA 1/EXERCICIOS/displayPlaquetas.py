@@ -1,7 +1,7 @@
 def display_platelets(unit_of_measurement, quantity):
     print(f'O número de plaquetas por {unit_of_measurement} é {quantity:.2f}')
 
-print("""                                                                                                                                                                                          
+print(r"""                                                                                                                                                                                          
 ,-.----.                                                                                              
 \    /  \    ,--,                                                     ___                             
 |   :    \ ,--.'|                ,----.                             ,--.'|_                           
