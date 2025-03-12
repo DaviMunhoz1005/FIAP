@@ -1,3 +1,21 @@
+def calculate_debt(principal, rate, months):
+    return principal * (1 + rate / 100) ** months
+
+def get_float_input(prompt):
+    while True:
+        try:
+            value = input(prompt).replace(',', '.')
+            return float(value)
+        except ValueError:
+            print("Entrada inválida! Por favor, insira um número válido.")
+
+def get_int_input(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Entrada inválida! Por favor, insira um número inteiro válido.")
+
 print("""                                                                                          
          ,---._                              ,----..               
        .-- -.' \               ,-.----.     /   /   \   .--.--.    
@@ -15,19 +33,18 @@ print("""
   "---....--'     `--`----'    `---'                                 
 """)
 
-debt = input('Por favor, insira o valor da sua dívida (exemplo - 1000.50): ').replace(',', '.')
-fees = input('Insira a porcentagem de juros que incidem mensalmente (exemplo - 20.12): ').replace(',', '.')
-num_months = input('Insira o número de meses que você quer saber (exemplo - 6 para 6 meses): ')
+debt = get_float_input('Por favor, insira o valor da sua dívida (exemplo - 1000.50): ')
+fees = get_float_input('Insira a porcentagem de juros mensal (exemplo - 20.12): ')
+num_months = get_int_input('Insira o número de meses (exemplo - 6 para 6 meses): ')
 
-debt = float(debt)
-fees = float(fees)
-num_months = int(num_months)
+final_debt = calculate_debt(debt, fees, num_months)
 
-if debt <= 0 or fees <= 0 or num_months <= 0:
-    print("Por favor, insira valores positivos e válidos para a dívida, juros e número de meses.")
-else:
-    accumulated_debt = debt
-    print("\nAqui está o seu cálculo de dívida acumulada:")
-    for i in range(1, num_months + 1):
-        accumulated_debt += accumulated_debt * (fees / 100)
-        print(f'A dívida acumulada no {i}º mês será de R$ {accumulated_debt:.2f}')
+print("\n" + "=" * 50)
+print("CÁLCULO DA DÍVIDA ACUMULADA COM JUROS COMPOSTOS")
+print("=" * 50)
+
+for i in range(1, num_months + 1):
+    accumulated_debt = calculate_debt(debt, fees, i)
+    print(f'A dívida acumulada no {i}º mês será de R$ {accumulated_debt:.2f}')
+
+print("=" * 50)
