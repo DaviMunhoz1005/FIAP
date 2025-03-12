@@ -17,8 +17,8 @@ print("""
                                                          `--`-'                                   
 """)
 
-base = input('Insira o valor da base: ')
-height = input('Insira o valor da altura: ')
+base = input('Insira o valor da base: ').replace(',', '.')
+height = input('Insira o valor da altura: ').replace(',', '.')
 
 base = float(base)
 height = float(height)

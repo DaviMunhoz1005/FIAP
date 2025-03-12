@@ -14,7 +14,7 @@ print("""
               `----'                      `----'   ---`-'    `----'    `--`---'     `----'     `----'                                                                                                    
 """)
 
-kilometer_per_hour = input('Insira a velocidade em km/h (exemplo - 75,6): ')
+kilometer_per_hour = input('Insira a velocidade em km/h (exemplo - 75,6): ').replace(',', '.')
 
 kilometer_per_hour = float(kilometer_per_hour)
 meter_per_hour = kilometer_per_hour * 1000
