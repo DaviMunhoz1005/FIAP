@@ -1,5 +1,4 @@
 Material da aula - https://docs.google.com/document/d/1H-7w1vtuNnfxdn9eZ246ihtW_m-gOzpGAw-hs06WM2U/edit?tab=t.0
-Para aprendizado - https://pythontutor.com/
 
 CP1 - formulário de aproximadamente 20 minutos de resposta, todas as aulas terá um formulário e no final faz a média
 
