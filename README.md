@@ -1,2 +1,2 @@
 # FIAP
-Anotações e exercícios em sala de aula
+Anotações e exercícios em sala de aula presencialmente
