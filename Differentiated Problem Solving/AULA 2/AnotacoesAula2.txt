@@ -1,0 +1,4 @@
+ - Uma função associa cada elemento x para um y = f(x) chamado contradomínio dentro do domínio de f
+ - Domínio é o eixo x
+ - Imagem é aquilo que a gente vê no eio y e usa, tirando as sobras
+ - Contradomínio é aquilo que a gente vê no eio y e aparece ou não aparece, com as sobras
