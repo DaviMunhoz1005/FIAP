@@ -27,6 +27,7 @@ hours = total_minutes // 60
 minutes = total_minutes % 60
 
 if hours > 0:
-    print(f'A quantidade de tempo depois da adição é {hours} horas e {minutes} minutos')
+    print(f'A quantidade de tempo depois da adição é {hours} {"horas" if hours > 1 else "hora"} e '
+          f'{minutes} {"minutos" if hours > 1 else "minuto"}')
 else:
     print(f'A quantidade de tempo depois da adição é {minutes} minutos')
