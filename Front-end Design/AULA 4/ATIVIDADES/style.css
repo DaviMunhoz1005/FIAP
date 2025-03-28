@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.desafio1 {
+    padding: 20px 10px;
+    text-align: justify;
+    color: orange;
+}
+
+#lista1 {
+    color: #0d82f0;
+    background-color: rgb(110, 32, 32);
+    list-style-type: armenian;
+    margin: 10px 40px;
+    padding: 40px;
+}
+
+#lista2 {
+    color: #0d82f0;
+    background-color: rgb(119, 5, 5);
+    list-style-type: armenian;
+    margin: 10px 40px;
+    padding: 40px; 
+}
+
+#lista1 li {
+    background-color: rgb(110, 32, 32);
+}
+
+#lista2 li {
+    background-color: rgb(119, 5, 5);
+}
