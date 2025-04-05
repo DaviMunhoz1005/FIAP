@@ -1,0 +1,11 @@
+div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 120px;
+    height: 110px;
+    overflow: hidden;
+}

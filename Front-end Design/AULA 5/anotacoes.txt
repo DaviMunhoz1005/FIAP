@@ -1,0 +1,18 @@
+Organização padrão:
+- src
+    - assets
+        - imgs
+    - css
+    - js
+    - pages
+- index.html
+- README.md
+
+
+sobre a CP:
+- entregar o link do github
+- link do github pages
+- cada pessoa precisa fazer um commit
+- precisa estar organizado nas pastas que o professor passou
+- no README precisa comentar sobre a estrutura do trabalho, integrantes(nome completo) 
+  e tecnologias utilizadas
