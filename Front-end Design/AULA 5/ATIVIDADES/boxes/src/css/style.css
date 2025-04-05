@@ -1,0 +1,20 @@
+.caixa {
+    width: 150px;
+    height: 150px;
+}
+
+.caixa-amarela {
+    background-color: yellow;
+    border: solid 5px green;
+    position: absolute;
+    /*se o z-index desse for menor que o do 
+    azul ele fica por baixo*/    
+    z-index: 2;
+}
+
+.caixa-azul {
+    background-color: blue;
+    border: solid 5px red;
+    position: absolute;
+    z-index: 1;
+}
