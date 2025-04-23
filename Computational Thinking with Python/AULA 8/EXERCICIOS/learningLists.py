@@ -3,7 +3,7 @@ def get_last_element(numbered_list):
 
 
 def get_greater_element(numbered_list):
-    greater_element = 0
+    greater_element = numbered_list[0]
     for element in numbered_list:
         if element > greater_element:
             greater_element = element
