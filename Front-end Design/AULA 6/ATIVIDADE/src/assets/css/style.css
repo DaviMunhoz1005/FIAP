@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccccc77;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container-title {
+    padding: 20px 0;
+}
+
+.products {
+    background-color: #cccccc9f;
+    width: fit-content;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid rgba(95, 158, 160, 0.479);
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:first-child {
+    font-family: 'Times New Roman', Times, serif;
+    transform: rotate(-2deg);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:first-child:hover {
+    transform: rotate(2deg) scale(1.03);
+}
+
+.card:last-child::before {
+    content: "✨ Último!";
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: pulse 2s infinite;
+}
+
+/* Animação besta de Pulsação no ::before*/
+@keyframes pulse { 
+    0% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.1); }
+    100% { opacity: 0.5; transform: scale(1); }
+}
+
+.card:last-child::after {
+    content: "⚡";
+    font-size: 24px;
+    color: gold;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background: #000;
+    border-radius: 50%;
+    padding: 4px;
+    animation: spin 3s linear infinite;
+}
+
+/* Essa aqui curti, fica girando o ::after*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.card h1 {
+    padding: 10px 0;
+}
+
+.card img {
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 50px;
+}
+
+.card p {
+    margin-top: 10px;
+    color: rgb(101, 107, 107);
+    font-size: 20px;
+}
+
+.card button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: darkgreen;
+}
+
+.card button::before {
+    content: "👉 ";
+}
+
+.card button::after {
+    content: " 🚀";
+}
+
+.card input {
+    display: block; 
+    margin: 5px auto; 
+    padding: 8px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.card input:focus {
+    border-color: #3b9c9c;
+    outline: none;
+}
