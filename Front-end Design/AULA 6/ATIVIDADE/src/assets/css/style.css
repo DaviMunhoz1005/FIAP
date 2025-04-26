@@ -100,6 +100,7 @@ body {
 .card img {
     border-radius: 5px;
     width: 200px;
+    height: 200px;
     margin: 0 50px;
 }
 
