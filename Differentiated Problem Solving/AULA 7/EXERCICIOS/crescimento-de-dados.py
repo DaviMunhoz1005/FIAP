@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(1, 20, 60)
+x = np.linspace(0, 15, 60)
 a, b = (1000, 1.3)
 
 
