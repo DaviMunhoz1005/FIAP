@@ -1,6 +1,6 @@
 def isPrime(number):
     start = 2
-    while start <= number / 2:
+    while start <= number ** 1/2:
         if number % start == 0:
             return False
         start = start + 1
