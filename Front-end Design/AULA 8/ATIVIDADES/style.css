@@ -1,0 +1,39 @@
+.container {
+    border: solid red;
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    gap: 10px;
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border: dotted;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
