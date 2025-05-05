@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    width: 100%;
+}
+
+header {
+    display: block;
+    height: 200px;
+    background-color: aqua;
+    width: 100%;
+    margin-left: 20%;
+}
+
+nav {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: orangered;
+}
+
+section {
+    display: inline-block;
+    width: 50%;
+    height: 380px;
+    margin-left: 20%;
+    background-color: plum;
+}
+
+aside {
+    display: inline-block;
+    width: 30%;
+    height: 380px;
+    background-color: orange;
+}
+
+footer {
+    display: block;
+    height: 200px;
+    background-color: aqua;
+    width: 100%;
+    margin-left: 20%;
+}
