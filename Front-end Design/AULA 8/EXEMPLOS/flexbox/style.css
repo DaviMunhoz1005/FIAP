@@ -1,0 +1,18 @@
+.container {
+    display: flex; /*Indica que o container é flexível*/
+    /*flex-direction: row; Indica direção, vertical, horizontal, reversa, essas coisas*/
+    /*flex-wrap: wrap; Defini se ele será multilinha se chegar no limite da tela*/
+    flex-flow: row wrap; /*Abreviação do direction e do wrap*/
+    justify-content: center; /*Alinha se o pai for linha ou coluna de forma centralizada*/
+    gap: 20px; /*gap entre os elementos*/
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(90deg, purple, blue);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
