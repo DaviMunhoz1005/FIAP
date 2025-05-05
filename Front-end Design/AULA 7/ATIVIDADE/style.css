@@ -1,0 +1,51 @@
+.box1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, purple, blue);
+    margin: 20px;
+    transition: all 1s;
+}
+
+.box1:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.box2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left, purple, blue);
+    margin: 20px;
+    transition: all 1s;
+}
+
+.box2:hover {
+    transform: translate(10px, 20px);
+}
+
+.box3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, purple, blue);
+    margin: 20px;
+    transition: all 1s;
+}
+
+.box3:hover {
+    transform: rotate(30deg);
+}
+
+.box4 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, purple, blue);
+    margin: 20px;
+    transition: all 1s;
+}
+
+.box4:hover {
+    transform: scale(2, 1);
+}
