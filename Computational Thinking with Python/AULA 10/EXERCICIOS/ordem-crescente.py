@@ -1,7 +1,5 @@
 def isGrowing(firstNumber, secondNumber, thirdNumber):
-    if firstNumber < secondNumber < thirdNumber:
-        return True
-    return False
+    return firstNumber < secondNumber < thirdNumber
 
 
 running = True
