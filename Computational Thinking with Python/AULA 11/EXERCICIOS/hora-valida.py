@@ -1,4 +1,4 @@
-def id_valid_hour(hour, minutes):
+def id_valid_hour(hour, minutes) -> bool:
     return hour <= 24 and minutes <= 59
 
 
