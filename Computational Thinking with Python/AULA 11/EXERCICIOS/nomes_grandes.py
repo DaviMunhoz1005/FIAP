@@ -8,7 +8,7 @@ def bigger_name(names: list[str]) -> list[str]:
 
 
 assert bigger_name(["Joao", "Constantinos"]) == ["Constantinos"]
-assert bigger_name([]) == [],
+assert bigger_name([]) == []
 assert bigger_name(["Ana", "Pedro", "Alexandrino"]) == ["Alexandrino"]
 assert bigger_name(["Alexandrino", "Bernardinos", "Carlos"]) == ["Alexandrino", "Bernardinos"]
 assert bigger_name(["Maria", "Jose", "Gabrielinos"]) == ["Gabrielinos"]
